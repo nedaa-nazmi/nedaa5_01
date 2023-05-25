@@ -139,12 +139,12 @@ class page_1 extends StatelessWidget {
                 children: [
                   Container(
                     width: 120,
-                    height: 70,
+                    height: 80,
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(24),
                         color: Color(0xFF34495E)),
                     padding: EdgeInsets.symmetric(horizontal: 12, vertical: 12),
-                    margin: EdgeInsets.all(12),
+                    margin: EdgeInsets.all(8),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
@@ -164,12 +164,12 @@ class page_1 extends StatelessWidget {
                   ),
                   Container(
                     width: 120,
-                    height: 70,
+                    height: 80,
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(24),
                         color: Colors.grey[200]),
                     padding: EdgeInsets.symmetric(horizontal: 12, vertical: 12),
-                    margin: EdgeInsets.all(12),
+                    margin: EdgeInsets.all(8),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [

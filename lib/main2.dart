@@ -13,7 +13,7 @@ class page_2 extends StatelessWidget {
       home: Scaffold(
         body: SafeArea(
           child: Padding(
-            padding: const EdgeInsets.all(16),
+            padding: const EdgeInsets.all(12),
             child: Column(
               children: [
                 Row(
@@ -71,15 +71,15 @@ class page_2 extends StatelessWidget {
                   alignment: Alignment.center,
                   children: [
                     Container(
-                      width: 350,
+                      width: 290,
                       height: 240,
-                      margin: EdgeInsets.only(top: 90),
+                      margin: EdgeInsets.only(top: 80),
                       decoration: BoxDecoration(
                           color: Colors.grey[100],
                           borderRadius: BorderRadius.circular(24)),
                     ),
                     Container(
-                      width: 350,
+                      width: 300,
                       height: 240,
                       margin: EdgeInsets.only(top: 40),
                       decoration: BoxDecoration(
@@ -90,7 +90,7 @@ class page_2 extends StatelessWidget {
                       width: 350,
                       height: 240,
                       padding:
-                          EdgeInsets.symmetric(horizontal: 12, vertical: 18),
+                          EdgeInsets.symmetric(horizontal: 16, vertical: 16),
                       margin: EdgeInsets.symmetric(vertical: 30),
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(32),
@@ -260,7 +260,7 @@ class page_2 extends StatelessWidget {
                   ],
                 ),
                 SizedBox(
-                  height: 100,
+                  height: 120,
                 ),
                 Container(
                   alignment: Alignment.center,
